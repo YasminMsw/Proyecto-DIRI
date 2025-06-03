@@ -15,10 +15,9 @@ import type { User } from '../../Models';
 // })
 
 
-const savedUser = localStorage.getItem('user')
 const initialState = {
-  user: savedUser ? JSON.parse(savedUser) : null
-}
+  user: JSON.parse(localStorage.getItem("user") || "null")
+};
 
 const authSlice = createSlice({
   name: 'auth',
@@ -34,5 +33,5 @@ const authSlice = createSlice({
 })
 
 
-export const { login, logout } = authSlice.actions
-export default authSlice.reducer
+export const { login, logout } = authSlice.actions;
+export default authSlice.reducer;

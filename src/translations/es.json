@@ -24,7 +24,7 @@
   },
 
   "sidebar": {
-    "movements": "Movimientos",
+    "movements": "Transacciones",
     "dashboard": "Tablero",
     "logout": "Cerrar sesión"
   },
