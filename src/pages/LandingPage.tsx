@@ -39,7 +39,7 @@ export default function LandingPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/fotoSection1.jpg"
+            src="assets/fotoSection1.jpg"
             alt="Finance background"
             className="w-full h-full object-cover"
           />
@@ -123,7 +123,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           <div>
             <img
-              src="/assets/section2img1.webp"
+              src="assets/section2img1.webp"
               alt=""
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -137,7 +137,7 @@ export default function LandingPage() {
 
           <div>
             <img
-              src="/assets/section2img2.jpg"
+              src="assets/section2img2.jpg"
               alt=""
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -151,7 +151,7 @@ export default function LandingPage() {
 
           <div>
             <img
-              src="/assets/section2img3.webp"
+              src="assets/section2img3.webp"
               alt=""
               className="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -165,7 +165,7 @@ export default function LandingPage() {
 
           <div>
             <img
-              src="/assets/section2img4.jpg"
+              src="assets/section2img4.jpg"
               alt=""
               className="w-full h-48 object-cover rounded-md mb-4"
             />
