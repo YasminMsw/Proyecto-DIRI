@@ -7,7 +7,10 @@ import tailwindcss from "@tailwindcss/vite"
 // https://vite.dev/config/
 
 export default defineConfig({
-    base: '/Proyecto-DIRI/', 
+    base: '/dist/', 
+    build: {
+ outDir: 'docs',
+ },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
