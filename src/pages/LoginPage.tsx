@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import "../style/auth.css";
 import { useTranslation } from "react-i18next";
 import logger from "@/services/logging";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +47,7 @@ const LoginPage = () => {
       } else if (err.code === "auth/invalid-email") {
         setError(t("login.errors.invalid_email"));
       } else {
-        console.error("Login error:", err); 
+        console.error("Login error:", err);
         setError(t("login.errors.generic"));
       }
     }
@@ -95,9 +96,9 @@ const LoginPage = () => {
 
             <p className="text-center text-sm text-gray-500 mt-4">
               {t("login.no_account")}{" "}
-              <a href="/register" className="text-teal-600 hover:underline">
+              <Link to="/register" className="text-teal-600 hover:underline">
                 {t("login.register_link")}
-              </a>
+              </Link>
             </p>
           </form>
         </CardContent>

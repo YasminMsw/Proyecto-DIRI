@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useTranslation } from "react-i18next"
 import logger from "@/services/logging";
+import { Link } from "react-router-dom"
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("")
@@ -108,9 +109,9 @@ const RegisterPage = () => {
 
             <p className="text-center text-sm text-gray-500 mt-4">
               {t("register.have_account")}{" "}
-              <a href="/login" className="text-teal-600 hover:underline">
+              <Link to="/login" className="text-teal-600 hover:underline">
                 {t("register.login_link")}
-              </a>
+              </Link>
             </p>
           </form>
         </CardContent>
