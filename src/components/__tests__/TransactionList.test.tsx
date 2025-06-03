@@ -1,4 +1,5 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import { screen, fireEvent } from "@testing-library/dom";
 import TransactionList from "../TransactionList";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
@@ -67,7 +68,7 @@ describe("TransactionList", () => {
   it("muestra las transacciones correctamente", () => {
     render(
       <Provider store={store}>
-        <TransactionList onEdit={mockEdit} />
+        <TransactionList onEdit={mockEdit} filters={{ type: "", category: "", date: "" }}/>
       </Provider>
     );
 
@@ -78,7 +79,7 @@ describe("TransactionList", () => {
   it("llama a onEdit al hacer clic en el botón de editar", () => {
     render(
       <Provider store={store}>
-        <TransactionList onEdit={mockEdit} />
+        <TransactionList onEdit={mockEdit} filters={{ type: "", category: "", date: "" }}/>
       </Provider>
     );
 
@@ -90,7 +91,7 @@ describe("TransactionList", () => {
   it("llama a deleteDoc al hacer clic en el botón de eliminar", async () => {
     render(
       <Provider store={store}>
-        <TransactionList onEdit={mockEdit} />
+        <TransactionList onEdit={mockEdit} filters={{ type: "", category: "", date: "" }}/>
       </Provider>
     );
 

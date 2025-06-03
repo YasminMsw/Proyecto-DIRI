@@ -7,6 +7,9 @@ export interface Transaction {
   description?: string
 }
 
+// interface AuthState {
+//   user: User | null
+// }
 
 export interface TransactionState {
   list: Transaction[]

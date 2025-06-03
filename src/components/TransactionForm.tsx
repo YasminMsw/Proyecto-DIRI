@@ -16,10 +16,6 @@ import type { Transaction, TransactionType } from "../Models";
 import { useTranslation } from "react-i18next";
 import "../style/auth.css";
 import logger from "@/services/logging";
-import { Calendar } from "./ui/calendar";
-import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
-import { CalendarIcon } from "lucide-react";
-import { Button } from "./ui/button";
 import { DatePicker } from "./ui/DatePicker";
 
 interface Props {

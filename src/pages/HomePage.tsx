@@ -1,4 +1,4 @@
-import { lazy, useState, Suspense, useMemo } from "react";
+import { lazy, useState, Suspense } from "react";
 import type { Transaction } from "../Models";
 import "../style/homepage.css";
 import { useTranslation } from "react-i18next";

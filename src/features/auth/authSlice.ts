@@ -14,9 +14,6 @@ import type { User } from '../../Models';
 //   },
 // })
 
-interface AuthState {
-  user: User | null
-}
 
 const savedUser = localStorage.getItem('user')
 const initialState = {

@@ -16,7 +16,7 @@ function App() {
     logger.info("Aplicación cargada");
   }, []);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Proyecto-DIRI">
       <Suspense fallback={<div>Cargando...</div>}>
         <Routes>
           <Route path="/" element={<LandingPage />} />

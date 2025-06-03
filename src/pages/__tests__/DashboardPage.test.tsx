@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
 import transactionReducer from "@/features/transactions/transactionSlice";
 import type { Transaction, TransactionState } from "@/Models";
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect } from "vitest";
 
 
 
