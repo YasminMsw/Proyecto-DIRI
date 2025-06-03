@@ -1,0 +1,142 @@
+{
+ "general":{
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again later.",
+    "success": "Operation completed successfully.",
+    "search": "Search",
+    "filter": "Filter",
+    "clear_filter": "Clear Filter"
+  },
+  "footer": {
+    "description": "The app is a Personal Finance Manager where users can record income and expenses, and view a summary of their balance. It also includes a Dashboard with graphical visualization to better analyze their financial status.",
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "schedule": "Available Every Day: 7am - 10pm",
+    "rights": "All Rights Reserved",
+    "nav": {
+      "home": "Home",
+      "login": "Login",
+      "register": "Transaction Registration",
+      "balance": "Current Balance",
+      "history": "Transaction History",
+      "dashboard": "Financial Dashboard"
+    }
+  },
+  "sidebar": {
+    "movements": "Transactions",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "transaction": {
+    "income": "Income",
+    "expense": "Expense",
+    "amount": "Amount",
+    "category": "Category",
+    "description_optional": "Description (optional)",
+    "add": "Add transaction",
+    "save_changes": "Save changes"
+  },
+  "transactionList": {
+    "no_transactions": "No transactions recorded.",
+    "date": "Date",
+    "type": "Type",
+    "amount": "Amount",
+    "category": "Category",
+    "description": "Description",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "dashboard": {
+    "title": "Financial Summary 📊",
+    "income": "Income",
+    "expense": "Expenses",
+    "income_vs_expense": "Income vs Expenses",
+    "by_category": "Distribution by Category",
+    "balance_evolution": "Balance Evolution"
+  },
+  "home": {
+    "movements": "Transactions",
+    "add_transaction": "Add Transaction",
+    "loading_transactions": "Loading transactions...",
+    "no_transactions": "No transactions found.",
+    "loading_form": "Loading form..."
+  },
+  "landing": {
+    "login": "LOGIN",
+    "hero_tagline": "TRANSFORM YOUR FINANCIAL LIFE",
+    "hero_title": "Gestor-finanzas, your personal finance manager.",
+    "hero_description": "Easily record income and expenses while gaining a clear understanding of your financial situation through our intuitive dashboard.",
+    "start_now": "GET STARTED",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email Address",
+      "phone": "Your Phone",
+      "message": "How Can We Assist You?",
+      "submit": "SUBMIT TRANSACTION"
+    },
+    "solutions_title": "Comprehensive Solutions for Financial Management",
+    "solutions_description": "With a focus on excellence, Gestor Finanzas allows users to register income and expenses, providing a detailed overview of their financial situation. The app integrates graphical tools to facilitate financial analysis.",
+    "features": {
+      "secure_access": {
+        "title": "Secure Access",
+        "desc": "Easily log in via Firebase Authentication, ensuring secure and simple access to your financial data."
+      },
+      "transaction_management": {
+        "title": "Transaction Management",
+        "desc": "Record, view, and manage your income and expenses with our user-friendly interface, keeping full control of your budget."
+      },
+      "data_visualization": {
+        "title": "Data Visualization",
+        "desc": "Track your financial health through dynamic charts comparing income and expenses, and detailed insights to make informed decisions."
+      },
+      "detailed_history": {
+        "title": "Detailed History",
+        "desc": "Access a complete history of your transactions, with filters by date and category to keep important information at your fingertips."
+      }
+    }
+  },
+  "login": {
+    "title": "Login",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "button": "Sign In",
+    "invalid_credentials": "Incorrect email or password",
+    "no_account": "Don't have an account?",
+    "register_link": "Register here",
+    "errors": {
+      "user_not_found": "User not found.",
+      "wrong_password": "Incorrect password.",
+      "invalid_email": "Invalid email address.",
+      "generic": "Login failed. Please try again."
+    }
+  },
+  "register": {
+    "title": "Register",
+    "first_name_label": "First Name",
+    "first_name_placeholder": "Enter your first name",
+    "last_name_label": "Last Name",
+    "last_name_placeholder": "Enter your last name",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "button": "Sign Up",
+    "error": "Could not register user",
+    "have_account": "Already have an account?",
+    "login_link": "Log in here"
+  },
+
+  "balance": {
+  "title": "Current Balance",
+  "income": "Total Income",
+  "expense": "Total Expenses",
+  "total": "Net Balance"
+},
+"filters":{
+  "all_types":"All Types",
+  "reset": "Reset Filters"
+}
+}

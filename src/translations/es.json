@@ -1,0 +1,142 @@
+{
+   "general":{
+    "loading": "Cargando...",
+    "error": "Ocurrió un error. Por favor, inténtalo de nuevo más tarde.",
+    "success": "Operación completada con éxito.",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "clear_filter": "Limpiar Filtro"
+  },
+  "footer": {
+    "description": "La aplicación será un Gestor de Finanzas Personales donde los usuarios podrán registrar ingresos y gastos, ver un resumen de su balance. Además, contará con un Dashboard con visualización gráfica para que los usuarios puedan analizar mejor su estado financiero.",
+    "contact": "Contacto",
+    "navigation": "Navegación",
+    "schedule": "Disponible Todos los Días: 7am - 10pm",
+    "rights": "Todos los Derechos Reservados",
+    "nav": {
+      "home": "Inicio",
+      "login": "Iniciar Sesión",
+      "register": "Registro de Transacciones",
+      "balance": "Balance Actual",
+      "history": "Historial de Transacciones",
+      "dashboard": "Dashboard Financiero"
+    }
+  },
+
+  "sidebar": {
+    "movements": "Movimientos",
+    "dashboard": "Tablero",
+    "logout": "Cerrar sesión"
+  },
+  "transaction": {
+    "income": "Ingreso",
+    "expense": "Gasto",
+    "amount": "Cantidad",
+    "category": "Categoría",
+    "description_optional": "Descripción (opcional)",
+    "add": "Añadir transacción",
+    "save_changes": "Guardar cambios"
+  },
+  "transactionList": {
+    "no_transactions": "No hay transacciones registradas.",
+    "date": "Fecha",
+    "type": "Tipo",
+    "amount": "Cantidad",
+    "category": "Categoría",
+    "description": "Descripción",
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar"
+  },
+  "dashboard": {
+    "title": "Resumen Financiero 📊",
+    "income": "Ingresos",
+    "expense": "Gastos",
+    "income_vs_expense": "Ingresos vs Gastos",
+    "by_category": "Distribución por Categoría",
+    "balance_evolution": "Evolución del Saldo"
+  },
+  "home": {
+    "movements": "Transacciones",
+    "add_transaction": "Añadir transacción",
+    "loading_transactions": "Cargando transacciones...",
+    "no_transactions": "No hay transacciones registradas.",
+    "loading_form": "Cargando formulario..."
+  },
+  "landing": {
+    "login": "INICIAR SESIÓN",
+    "hero_tagline": "TRANSFORME SU VIDA FINANCIERA",
+    "hero_title": "Gestor finanzas, su gestor personal de finanzas.",
+    "hero_description": "Registre ingresos y gastos de manera sencilla, mientras obtiene una comprensión clara de su situación financiera a través de nuestro intuitivo dashboard.",
+    "start_now": "INICIE SESIÓN",
+    "form": {
+      "name": "Su Nombre",
+      "email": "Su Correo Electrónico",
+      "phone": "Su Teléfono",
+      "message": "¿Cómo Podemos Asistirle?",
+      "submit": "REGISTRAR TRANSACCIÓN"
+    },
+    "solutions_title": "Soluciones Integrales para la Gestión Financiera",
+    "solutions_description": "Con un enfoque en la excelencia, Gestor Finanzas permite a los usuarios registrar ingresos y gastos, proporcionando un resumen detallado de su situación financiera. La aplicación integra herramientas gráficas que facilitan el análisis del estado financiero.",
+    "features": {
+      "secure_access": {
+        "title": "Acceso Seguro",
+        "desc": "Inicia sesión de forma sencilla a través de Firebase Authentication, garantizando un acceso fácil y seguro a tu información financiera."
+      },
+      "transaction_management": {
+        "title": "Gestión de Transacciones",
+        "desc": "Registra, visualiza y gestiona tus ingresos y gastos con nuestra interfaz fácil de usar, manteniendo el control total de tu presupuesto."
+      },
+      "data_visualization": {
+        "title": "Visualización de Datos",
+        "desc": "Examina tu salud financiera a través de gráficos dinámicos que comparan ingresos y gastos, y análisis detallados que te ayudan a tomar decisiones informadas."
+      },
+      "detailed_history": {
+        "title": "Historial Detallado",
+        "desc": "Accede a un historial completo de tus transacciones, con capacidades de filtro por fecha y categoría que ponen información crítica al alcance de tu mano."
+      }
+    }
+  },
+  "login": {
+    "title": "Iniciar Sesión",
+    "email_label": "Correo Electrónico",
+    "email_placeholder": "Correo",
+    "password_label": "Contraseña",
+    "password_placeholder": "Contraseña",
+    "button": "Entrar",
+
+    "no_account": "¿No tienes cuenta?",
+    "register_link": "Regístrate aquí",
+    "errors": {
+      "user_not_found": "Usuario no encontrado.",
+      "wrong_password": "Contraseña incorrecta.",
+      "invalid_email": "Correo electrónico inválido.",
+      "generic": "Correo o contraseña incorrectos"
+    }
+  },
+  "register": {
+    "title": "Registro",
+    "first_name_label": "Nombre",
+    "first_name_placeholder": "Nombre",
+    "last_name_label": "Apellido",
+    "last_name_placeholder": "Apellido",
+    "email_label": "Correo Electrónico",
+    "email_placeholder": "Correo",
+    "password_label": "Contraseña",
+    "password_placeholder": "Contraseña",
+    "button": "Registrarse",
+    "error": "No se pudo registrar el usuario",
+    "have_account": "¿Ya tienes cuenta?",
+    "login_link": "Inicia sesión aquí"
+  },
+  "balance": {
+  "title": "Balance Actual",
+  "income": "Total Ingresos",
+  "expense": "Total Gastos",
+  "total": "Balance Neto"
+},
+"filters":{
+  "all_types": "Todos los tipos",
+  "reset": "Reiniciar Filtros"
+}
+}
